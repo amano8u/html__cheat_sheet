@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400&family=Poppins:wght@300;400&display=swap');
+
+html {
+    display: block;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Libre Family', sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+table {
+    margin: 0 auto;
+    width: 960px;
+    text-align: left;
+    border: 2px solid red;
+}
+
+thead {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+th {
+    background-color: aqua;
+    padding: 5px 0px;
+}
+
+td {
+    border-top: 2px solid red;
+    padding: 2px 20px;
+}
+
+#tag, #name {
+    width: 10%;
+}
+
+
+#description, #notes {
+    width: 40%;
+}
+
+
